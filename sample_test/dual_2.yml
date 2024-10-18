@@ -1,0 +1,9 @@
+description: > 
+    Sample query (YAML)
+session: 
+    - SET (x, y) = (1,2)
+    - SET (a, b) = (1,2)
+sql: |
+   -- sample query
+   select 1, $x, $y 
+   from dual
